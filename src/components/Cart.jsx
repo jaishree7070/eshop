@@ -65,7 +65,7 @@ const Cart = () => {
               <div className="col-md-4">
                 <h3>{product.title}</h3>
                 <p className="lead fw-bold">
-                  {product.qty} X ${product.price} = $
+                  {product.qty} X ${product.price} =₹
                   {product.qty * product.price}
                 </p>
                 <button
